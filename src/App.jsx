@@ -53,8 +53,8 @@ export default function TraxosCompanyWebsite() {
           <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-blue-300 blur-3xl" />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8">
-          <nav className="mb-16 flex items-center justify-between">
+        <div className="relative mx-auto max-w-7xl px-6 py-1 lg:px-8">
+          <nav className="mb-1 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img src={logo} alt="Traxos" className="h-35 sm:h-50 md:h-60 w-auto drop-shadow-lg" />
               <span className="text-xl font-black tracking-wide sm:text-2xl">TRAXOS</span>
@@ -140,8 +140,8 @@ export default function TraxosCompanyWebsite() {
         <section id="about" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
             <div>
-              <p className="text-sm font-bold text-orange-500">من نحن</p>
-              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d]">
+              <p className="text-3xl font-bold text-orange-500">من نحن</p><br></br>
+              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d] !text-[#0f2a4d]">
                 شركة تراكسوس لخدمات الشحن والتسوق
               </h2>
               <p className="mt-6 text-lg leading-8 text-slate-600">
@@ -175,8 +175,8 @@ export default function TraxosCompanyWebsite() {
         <section id="services" className="bg-white py-20">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="max-w-2xl mx-auto text-center">
-              <p className="text-sm font-bold text-orange-500 ">الخدمات</p>
-              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d] ">ماذا نقدم لعملائنا؟</h2>
+              <p className="text-3xl font-bold text-orange-500 ">الخدمات</p>
+              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d] !text-[#0f2a4d] ">ماذا نقدم لعملائنا؟</h2>
             </div>
 
             <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -196,8 +196,8 @@ export default function TraxosCompanyWebsite() {
         <section id="advantages" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="flex flex-col items-center text-center gap-6">
             <div>
-              <p className="text-sm font-bold text-orange-500">لماذا تراكسوس؟</p>
-              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d]">
+              <p className="text-3xl font-bold text-orange-500">لماذا تراكسوس؟</p><br></br>
+              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d] !text-[#0f2a4d]">
                 مزايا تجعلنا الخيار المناسب
               </h2>
               <p className="mt-6 text-lg leading-8 text-slate-600 max-w-2xl">
@@ -226,7 +226,7 @@ export default function TraxosCompanyWebsite() {
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-10 backdrop-blur">
               <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
                 <div>
-                  <p className="text-sm font-bold text-orange-300">رؤيتنا</p>
+                  <p className="text-3xl font-bold text-orange-300">رؤيتنا</p><br></br>
                   <h2 className="mt-3 text-3xl font-black sm:text-4xl">
                     أن نصبح الخيار الأول للشحن والتسوق الدولي في ليبيا
                   </h2>
@@ -244,8 +244,8 @@ export default function TraxosCompanyWebsite() {
         <section id="contact" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="grid gap-8 rounded-[2rem] bg-white p-8 shadow-xl ring-1 ring-slate-200 lg:grid-cols-2 lg:p-12">
             <div>
-              <p className="text-sm font-bold text-orange-500">تواصل معنا</p>
-              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d]">جاهز لتجربة خدمة احترافية؟</h2>
+              <p className="text-3xl font-bold text-orange-500">تواصل معنا</p><br></br>
+              <h2 className="mt-3 text-3xl font-black sm:text-4xl text-[#0f2a4d] !text-[#0f2a4d]">جاهز لتجربة خدمة احترافية؟</h2>
               <p className="mt-5 leading-8 text-slate-600">
                 تواصل معنا عبر الهاتف أو البريد الإلكتروني أو صفحاتنا على مواقع التواصل الاجتماعي، وسنكون سعداء بخدمتك.
               </p>
